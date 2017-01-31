@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>My Bio</title>
+		<style>
+			* {
+			    margin:0;
+			    padding:0;
+			}
+			.main-header {
+				background-color:#ADD8E6;
+				height:50px;
+				width:calc(100%-30px);
+				padding:5px 5px;
+			}
+			.main-header h1 {
+				line-height: 50px;
+			}
+			.footer {
+				position:absolute;
+				bottom:0;
+				right:0;
+				left:0;
+				height:50px;
+				background-color:#ADD8E6;
+			}
+			span.logo {
+				color:blue;
+			}
+			.copyright {
+				color:blue;
+				font-weight:bold;
+				width:100%;
+				text-align:center;
+				padding:15px 0;
+			}
+			.box-shadow {
+				box-shadow:         inset 0px 0px 50px 0px #4E89A4,5px 5px 5px 1px #242424;
+				-webkit-box-shadow: inset 0px 0px 50px 0px #4E89A4,5px 5px 5px 1px #242424;
+				-moz-box-shadow:    inset 0px 0px 50px 0px #4E89A4,5px 5px 5px 1px #242424;
+				-o-box-shadow:      inset 0px 0px 50px 0px #4E89A4,5px 5px 5px 1px #242424;
+			}
+			.content-top {
+				60%;
+				height:180px;
+				background-color:#FFF;
+				margin:10px 0;
+				border:1px solid #CCC;
+			}
+			.content-bio {
+				position:relative;
+				float:left;
+				background-color:#ADD8E6;
+				width:100%;
+				height:180px;
+				margin:0 auto;
+			}
+			.content-bio img {
+				width:150px;
+				height:170px;
+				margin:5px 15px 5px 5px;
+			}
+			.bio-text {
+				position:absolute;
+				top:5px;
+				left:170px;
+			}
+			.content-bottom {
+				position:relative;
+			}
+			.sidebar {
+				float:left;
+				background-color:#ADD8E6;
+				width:25%;
+				height:500px;
+			}
+			.main-content {
+				float:right;
+				background-color:#87CEFA;
+				width:71%;
+				height:500px;
+				padding:0 2% 0 2%;
+			}
+			.sidebar-links {
+				background-color:#ADD8E6;
+			}
+			.sidebar-links li {
+				width:100%;
+				height:30px;
+				border:1px solid #CCC;
+				border-top:1px solid #87CEFA;
+			}
+			.sidebar-links a {
+				display:block;
+				padding:7px;
+				text-decoradion:none;
+				transition-duration:0.7s;
+			}
+			.sidebar-links a:hover {
+				background-color:#4E89A4;
+				color:#000;
+			}
+		</style>
+	</head>
+	<body>
+	    <header class="main-header box-shadow">
+		    <span class="logo">
+				<h1>Kevin Eanes</h1>
+			</span>
+		</header>
+		<section class = "content-top">
+			<article class="content-bio">
+				<img src="./images/mypic.png" alt="my pic">
+				<div class="bio-text"> 
+					<h1>My Biography</h1>
+					<p>I was born in Whittier, California in 1968.  My family moved to Fresno around 1975, and I grew up here.  After graduating from high school, I attended U.C.&nbsp;Santa&nbsp;Cruz, where I studied Russian, but I did not complete a degree there.  I worked as regional manager for Alamo&nbsp;Rent-a-Car from 1991 to 2001, then as an analyst for Fresno&nbsp;County from 2001 to 2006, then I was self-employed as a real estate broker from 2006 to 2010.  I went back to school at Fresno&nbsp;City&nbsp;College where I earned an A.S. in Business Administration and an A.S. in Computer Information Technology, both in 2015.  I am currently a student at Fresno&nbsp;State, majoring in Information Systems.  Just for fun, here are some links to my favorite websites from the 1990s.  I like art, so I also included some famous works of art that I like.</p>
+				</div>
+			</article>
+		</section>
+		<section class = "content-bottom">
+			<aside class="sidebar">
+				<ul class="sidebar-links">
+					<li><a href="https://www.aol.com"       target=_blank >AOL      </a></li>
+					<li><a href="https://www.yahoo.com"     target=_blank >Yahoo!   </a></li>
+					<li><a href="https://www.msn.com"       target=_blank >MSN      </a></li>
+					<li><a href="http://www.excite.com"     target=_blank >Excite   </a></li>
+					<li><a href="http://www.lycos.com"      target=_blank >Lycos    </a></li>
+					<li><a href="https://www.microsoft.com" target=_blank >Microsoft</a></li>					
+			</aside>
+			<article class="main-content">
+                    <div class="gallery">
+						<h1>Gallery</h1>
+						<!--<ul>
+							<li><img src="./images/gallery/1.jpg" height=200 width=200 alt="car"></li>
+							<li><img src="./images/gallery/2.jpg" height=200 width=200 alt="car"></li>
+							<li><img src="./images/gallery/3.jpg" height=200 width=200 alt="car"></li>
+							<li><img src="./images/gallery/4.jpg" height=200 width=200 alt="car"></li>
+							<li><img src="./images/gallery/5.jpg" height=200 width=200 alt="car"></li>
+							<li><img src="./images/gallery/6.jpg" height=200 width=200 alt="car"></li>
+							<li><img src="./images/gallery/7.jpg" height=200 width=200 alt="car"></li>
+							<li><img src="./images/gallery/8.jpg" height=200 width=200 alt="car"></li>
+						</ul>-->
+						
+						<table>
+							<tr>
+								<th>Art 1</th>
+								<th>Art 2</th>
+								<th>Art 3</th>
+								<th>Art 4</th>
+							</tr>
+							<tr>
+								<td><img src="./images/gallery/1.jpg" height=200 width=200 alt="car"></td>
+								<td><img src="./images/gallery/2.jpg" height=200 width=200 alt="car"></td>
+								<td><img src="./images/gallery/3.jpg" height=200 width=200 alt="car"></td>
+								<td><img src="./images/gallery/4.jpg" height=200 width=200 alt="car"></td>
+							</tr>
+							<tr>
+								<th>Art 5</th>
+								<th>Art 6</th>
+								<th>Art 7</th>
+								<th>Art 8</th>
+							</tr>
+							<tr>
+								<td><img src="./images/gallery/5.jpg" height=200 width=200 alt="car"></td>
+								<td><img src="./images/gallery/6.jpg" height=200 width=200 alt="car"></td>
+								<td><img src="./images/gallery/7.jpg" height=200 width=200 alt="car"></td>
+								<td><img src="./images/gallery/8.jpg" height=200 width=200 alt="car"></td>
+							</tr>
+						</table>
+					</div>
+                    <div> </div>
+                </article>
+		</section>
+		<section>
+		     <article>
+				<div>
+					
+				</div>
+				<div>
+		
+				</div>
+			 </article>
+		</section>
+			<footer class="footer box-shadow">
+		    <span>
+			     <p class="copyright">&copy; Created by Kevin Eanes<p>
+			<span>
+		</footer>
+	</body>
+</html>
